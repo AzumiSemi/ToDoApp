@@ -10,5 +10,11 @@
 #define ToDoList_Prefix_pch
 
 #import "NNConst.h"
+#import "FrameAccessor.h"
+#import "NNDataSource.h"
+#import "NNFMDBManager.h"
+#import "NNToDoList.h"
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 #endif /* ToDoList_Prefix_pch */

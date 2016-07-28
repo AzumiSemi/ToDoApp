@@ -15,10 +15,14 @@
 		505EC3131D458F11009E6D0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 505EC3111D458F11009E6D0E /* LaunchScreen.storyboard */; };
 		505EC31E1D458F11009E6D0E /* ToDoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 505EC31D1D458F11009E6D0E /* ToDoListTests.m */; };
 		505EC3291D458F11009E6D0E /* ToDoListUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 505EC3281D458F11009E6D0E /* ToDoListUITests.m */; };
-		505EC34E1D45DDA6009E6D0E /* ListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 505EC34D1D45DDA6009E6D0E /* ListTableViewController.m */; };
 		505EC3561D45DE30009E6D0E /* NNDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 505EC3511D45DE30009E6D0E /* NNDataSource.m */; };
 		505EC3571D45DE30009E6D0E /* NNFMDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 505EC3531D45DE30009E6D0E /* NNFMDBManager.m */; };
 		505EC3581D45DE30009E6D0E /* NNToDoList.m in Sources */ = {isa = PBXBuildFile; fileRef = 505EC3551D45DE30009E6D0E /* NNToDoList.m */; };
+		505EC35D1D45EBDE009E6D0E /* ListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 505EC35C1D45EBDE009E6D0E /* ListTableViewCell.m */; };
+		505EC3781D473610009E6D0E /* ScrollViewFrameAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 505EC3751D473610009E6D0E /* ScrollViewFrameAccessor.m */; };
+		505EC3791D473610009E6D0E /* ViewFrameAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 505EC3771D473610009E6D0E /* ViewFrameAccessor.m */; };
+		505EC3821D474BAB009E6D0E /* ListEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 505EC37F1D474BAB009E6D0E /* ListEditViewController.m */; };
+		505EC3831D474BAB009E6D0E /* ListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 505EC3811D474BAB009E6D0E /* ListTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +59,6 @@
 		505EC3241D458F11009E6D0E /* ToDoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		505EC3281D458F11009E6D0E /* ToDoListUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListUITests.m; sourceTree = "<group>"; };
 		505EC32A1D458F11009E6D0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		505EC34C1D45DDA6009E6D0E /* ListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewController.h; sourceTree = "<group>"; };
-		505EC34D1D45DDA6009E6D0E /* ListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewController.m; sourceTree = "<group>"; };
 		505EC3501D45DE30009E6D0E /* NNDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNDataSource.h; sourceTree = "<group>"; };
 		505EC3511D45DE30009E6D0E /* NNDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNDataSource.m; sourceTree = "<group>"; };
 		505EC3521D45DE30009E6D0E /* NNFMDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNFMDBManager.h; sourceTree = "<group>"; };
@@ -65,6 +67,17 @@
 		505EC3551D45DE30009E6D0E /* NNToDoList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNToDoList.m; sourceTree = "<group>"; };
 		505EC3591D45E026009E6D0E /* NNConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNConst.h; sourceTree = "<group>"; };
 		505EC35A1D45E069009E6D0E /* ToDoList-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ToDoList-Prefix.pch"; sourceTree = "<group>"; };
+		505EC35B1D45EBDE009E6D0E /* ListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewCell.h; sourceTree = "<group>"; };
+		505EC35C1D45EBDE009E6D0E /* ListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewCell.m; sourceTree = "<group>"; };
+		505EC3731D473610009E6D0E /* FrameAccessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameAccessor.h; sourceTree = "<group>"; };
+		505EC3741D473610009E6D0E /* ScrollViewFrameAccessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewFrameAccessor.h; sourceTree = "<group>"; };
+		505EC3751D473610009E6D0E /* ScrollViewFrameAccessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewFrameAccessor.m; sourceTree = "<group>"; };
+		505EC3761D473610009E6D0E /* ViewFrameAccessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewFrameAccessor.h; sourceTree = "<group>"; };
+		505EC3771D473610009E6D0E /* ViewFrameAccessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewFrameAccessor.m; sourceTree = "<group>"; };
+		505EC37E1D474BAB009E6D0E /* ListEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListEditViewController.h; sourceTree = "<group>"; };
+		505EC37F1D474BAB009E6D0E /* ListEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListEditViewController.m; sourceTree = "<group>"; };
+		505EC3801D474BAB009E6D0E /* ListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewController.h; sourceTree = "<group>"; };
+		505EC3811D474BAB009E6D0E /* ListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewController.m; sourceTree = "<group>"; };
 		8793A51992430835CF4BB8B8 /* libPods-ToDoList.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ToDoList.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -130,9 +143,11 @@
 				505EC3061D458F11009E6D0E /* AppDelegate.h */,
 				505EC3071D458F11009E6D0E /* AppDelegate.m */,
 				505EC3591D45E026009E6D0E /* NNConst.h */,
-				505EC34C1D45DDA6009E6D0E /* ListTableViewController.h */,
-				505EC34D1D45DDA6009E6D0E /* ListTableViewController.m */,
+				505EC35B1D45EBDE009E6D0E /* ListTableViewCell.h */,
+				505EC35C1D45EBDE009E6D0E /* ListTableViewCell.m */,
 				505EC34F1D45DE30009E6D0E /* Objects */,
+				505EC3721D473610009E6D0E /* FrameAccessor */,
+				505EC37D1D474BAB009E6D0E /* ViewController */,
 				505EC30C1D458F11009E6D0E /* Main.storyboard */,
 				505EC30F1D458F11009E6D0E /* Assets.xcassets */,
 				505EC3111D458F11009E6D0E /* LaunchScreen.storyboard */,
@@ -181,6 +196,31 @@
 			);
 			path = Objects;
 			sourceTree = "<group>";
+		};
+		505EC3721D473610009E6D0E /* FrameAccessor */ = {
+			isa = PBXGroup;
+			children = (
+				505EC3731D473610009E6D0E /* FrameAccessor.h */,
+				505EC3741D473610009E6D0E /* ScrollViewFrameAccessor.h */,
+				505EC3751D473610009E6D0E /* ScrollViewFrameAccessor.m */,
+				505EC3761D473610009E6D0E /* ViewFrameAccessor.h */,
+				505EC3771D473610009E6D0E /* ViewFrameAccessor.m */,
+			);
+			name = FrameAccessor;
+			path = ToDoList/FrameAccessor;
+			sourceTree = SOURCE_ROOT;
+		};
+		505EC37D1D474BAB009E6D0E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				505EC3801D474BAB009E6D0E /* ListTableViewController.h */,
+				505EC3811D474BAB009E6D0E /* ListTableViewController.m */,
+				505EC37E1D474BAB009E6D0E /* ListEditViewController.h */,
+				505EC37F1D474BAB009E6D0E /* ListEditViewController.m */,
+			);
+			name = ViewController;
+			path = ToDoList/ViewController;
+			sourceTree = SOURCE_ROOT;
 		};
 		E013D33E58424FC5BF8FE27D /* Pods */ = {
 			isa = PBXGroup;
@@ -377,10 +417,14 @@
 			files = (
 				505EC3561D45DE30009E6D0E /* NNDataSource.m in Sources */,
 				505EC3581D45DE30009E6D0E /* NNToDoList.m in Sources */,
+				505EC3791D473610009E6D0E /* ViewFrameAccessor.m in Sources */,
 				505EC3081D458F11009E6D0E /* AppDelegate.m in Sources */,
 				505EC3051D458F11009E6D0E /* main.m in Sources */,
-				505EC34E1D45DDA6009E6D0E /* ListTableViewController.m in Sources */,
+				505EC3781D473610009E6D0E /* ScrollViewFrameAccessor.m in Sources */,
+				505EC3821D474BAB009E6D0E /* ListEditViewController.m in Sources */,
+				505EC35D1D45EBDE009E6D0E /* ListTableViewCell.m in Sources */,
 				505EC3571D45DE30009E6D0E /* NNFMDBManager.m in Sources */,
+				505EC3831D474BAB009E6D0E /* ListTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,6 +568,7 @@
 			baseConfigurationReference = 14173053F0758A1731A2A55B /* Pods-ToDoList.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ToDoList/ToDoList-Prefix.pch";
 				INFOPLIST_FILE = ToDoList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -537,6 +582,7 @@
 			baseConfigurationReference = 112DB0D52489E7DDBAE78200 /* Pods-ToDoList.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ToDoList/ToDoList-Prefix.pch";
 				INFOPLIST_FILE = ToDoList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

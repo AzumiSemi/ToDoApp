@@ -9,8 +9,6 @@
 #ifndef NNConst_h
 #define NNConst_h
 
-#define kCommonDeviceWidth          [[UIScreen mainScreen] bounds].size.width
-
 #define DB_FILE_NAME @"toDoListApp.db"
 
 #define SQL_CREATE @"CREATE TABLE IF NOT EXISTS toDoLists (id INTEGER PRIMARY KEY AUTOINCREMENT, date TEXT, list TEXT);"

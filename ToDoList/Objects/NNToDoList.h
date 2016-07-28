@@ -6,13 +6,12 @@
 //  Copyright © 2016年 TakeshiKomori. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 
 @interface NNToDoList : NSObject
 
-@property (nonatomic, assign)NSInteger listID;
-@property (nonatomic, strong)NSString *date;
-@property (nonatomic, strong)NSString *list;
+@property (nonatomic, assign)NSInteger  listID;
+@property (nonatomic, strong)NSString   *date;
+@property (nonatomic, strong)NSString   *list;
 
 
 @end

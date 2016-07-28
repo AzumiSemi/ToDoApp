@@ -6,7 +6,6 @@
 //  Copyright © 2016年 TakeshiKomori. All rights reserved.
 //
 
-#import "NNFMDBManager.h"
 #import "FMDatabase.h"
 
 @interface NNFMDBManager ()
